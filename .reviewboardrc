@@ -1,2 +1,2 @@
-REVIEWBOARD_URL = 'http://example.com/'
+REVIEWBOARD_URL = 'https://reviewboard.example.com'
 REPOSITORY = 'testRepo'
