@@ -1,2 +1,2 @@
-REVIEWBOARD_URL = 'https://reviewboard.example.com'
+REVIEWBOARD_URL = 'http://localhost:8080'
 REPOSITORY = 'testRepo'
