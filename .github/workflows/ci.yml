@@ -1,0 +1,17 @@
+name: Simple CI
+
+on:
+  push:
+    branches: [ my_first_review ]
+  pull_request:
+    branches: [ my_first_review ]
+
+jobs:
+  simple-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: List repository files
+        run: ls -la
